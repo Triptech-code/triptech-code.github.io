@@ -1,0 +1,25 @@
+import type { Employee } from "./types"
+
+export const initialEmployees: Employee[] = [
+  { id: "1", name: 'Alana "Grey" Stogner', department: "RBT" },
+  { id: "2", name: "Alana Gayle", department: "RBT" },
+  { id: "3", name: "Alisa Lewis", department: "RBT" },
+  { id: "4", name: "Anele Aguilar", department: "RBT" },
+  { id: "5", name: "Angelier Stevenson", department: "RBT" },
+  { id: "6", name: "Ava Mead", department: "RBT" },
+  { id: "7", name: "Barbara Graham", department: "RBT" },
+  { id: "8", name: "Brian Scott", department: "RBT" },
+  { id: "9", name: "Dominic Kenned", department: "RBT" },
+  { id: "10", name: "Elecia Cantu", department: "RBT" },
+  { id: "11", name: 'Elena "E" Dunz', department: "RBT" },
+  { id: "12", name: "Halle Smith", department: "RBT" },
+  { id: "13", name: "Jessica Fuller", department: "RBT" },
+  { id: "14", name: "Lexis Anderson", department: "RBT" },
+  { id: "15", name: "Madeline Heinen", department: "RBT" },
+  { id: "16", name: "Madison Sanchez", department: "RBT" },
+  { id: "17", name: "Malia Leung", department: "RBT" },
+  { id: "18", name: "Molly Leasure", department: "RBT" },
+  { id: "19", name: "Stephanie Triplett", department: "RBT" },
+  { id: "20", name: "Strawman Jackson", department: "RBT" },
+  { id: "21", name: "Taylor Gundrum", department: "RBT" },
+]
