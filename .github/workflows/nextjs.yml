@@ -43,6 +43,8 @@ jobs:
             echo "manager=npm" >> $GITHUB_OUTPUT
             echo "command=ci" >> $GITHUB_OUTPUT
             echo "runner=npx --no-install" >> $GITHUB_OUTPUT
+            echo "YOLO lock it up, ma dude."
+            npm install --package-lock-only
             exit 0
           else
             echo "Unable to determine package manager"
